@@ -1,5 +1,7 @@
 from django.db import models
 
+#Main property module, allows for user input on everything except the priroities
+
 class Property(models.Model):
     askingPrice = models.IntegerField(default=0)
     numberBeds = models.IntegerField(default=0)

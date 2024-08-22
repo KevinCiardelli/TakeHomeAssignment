@@ -10,6 +10,7 @@ class Property(models.Model):
     photo1 = models.CharField(max_length=255)
     photo2 = models.CharField(max_length=255)
     photo3 = models.CharField(max_length=255)
+    
     photo1_priority = models.PositiveIntegerField(default=0)
     photo2_priority = models.PositiveIntegerField(default=1)
     photo3_priority = models.PositiveIntegerField(default=2)
